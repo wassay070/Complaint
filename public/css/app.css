@@ -1,0 +1,70 @@
+.custom-form {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 2px 2px rgb(227, 227, 227);
+    background-color: #f5f7fa;
+}
+.form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.form-control:focus {
+    outline: none;
+    border-color: #e0e0e0;
+    box-shadow: 0 0 5px #e0e0e0;
+}
+.select2-container--default .select2-selection--single {
+    height: 48px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding: 10px 15px;
+    line-height: 26px;
+    color: #2c3e50;
+    font-size: 15px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 48px;
+}
+
+.select2-container--default .select2-selection--single:focus {
+    border-color: #e0e0e0;
+}
+.heading {
+    color: #C39D4D;
+    display: inline-block;
+    border-bottom: 3px solid #E0E0E0;
+    padding-bottom: 1px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.custom-form label{
+    font-weight: 600;
+    color: var(--first-color);
+}
+
+.badge-low{
+    background-color: #28a745;
+}
+
+.badge-medium{
+    background-color: #ffc107;
+}
+
+.badge-high{
+    background-color: #dc3545;
+}
+
+.badge-critical{
+    background-color: #dc3545;
+}
